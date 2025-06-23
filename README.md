@@ -6,7 +6,7 @@ All scripts have been tested on Windows 11 Version 10.0.26100 and Python version
 
 
 ## Installation
-Download cando.py and the other Python scripts from the root folder of mc_cando_glioma, as well as the contents of the CANDO_data folder. Note that Github serves .tsv files as plain text, which some browsers save with a .txt extension. To work around this issue, click the "Save as type" dropdown after selecting "Save As", select "All files", and manually add the extension ".tsv" to the file name. If that doesn't work, you can also download the .tsv files here: http://compbio.buffalo.edu/data/mc_cando_glioma/CANDO_data/
+Download cando.py and the other Python scripts from the root folder of mc_cando_glioma, as well as the contents of the CANDO_data folder. Note that Github serves .tsv files as plain text, which some browsers save with a .txt extension. To work around this issue, choose “Save As”, set the “Save as type” to “All Files”, and manually add the .tsv extension to the file name. If that doesn't work, you can also download the .tsv files here: http://compbio.buffalo.edu/data/mc_cando_glioma/CANDO_data/
 
 Change the value of the variables cmpd_map, ind_map, and matrix_file in each script to match the location of your data files on your machine. Note that we used the approved compound list ‘drugbank-v2.9-approved.tsv’ and the matrix file ‘rd_ecfp4-int-dice-alphafold-homo_sapien-coach-c0.0-p0.0-CxP-approved.tsv’ for canbenchmark.py and the full compound list ‘drugbank-v2.9.tsv’ and the matrix file ‘filtered-alphafold-CxP-rd_ecfp4-v2.9-all.tsv’ for canpredict_compounds_and_top_targets.py         
 
